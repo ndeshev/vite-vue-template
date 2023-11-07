@@ -6,13 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+	"lint:commit": "commitlint -e"
   },
   "dependencies": {
+    "@ui5/webcomponents": "^1.19.0",
+	"@ui5/webcomponents-base": "1.19.0",
+    "@ui5/webcomponents-fiori": "1.19.0",
+    "@ui5/webcomponents-icons": "1.19.0",
+    "@webcomponents/custom-elements": "^1.3.2",
+    "@webcomponents/shadydom": "^1.7.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+	"@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2"
   }
 }
